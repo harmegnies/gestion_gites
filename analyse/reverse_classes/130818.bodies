@@ -1,0 +1,29 @@
+class LinkGiteactiviteId
+!!!153346.java!!!	LinkGiteactiviteId(in idActivite : int, in idGite : int)
+		this.idActivite = idActivite;
+		this.idGite = idGite;
+!!!153474.java!!!	getIdActivite() : int
+		return this.idActivite;
+!!!153602.java!!!	setIdActivite(in idActivite : int) : void
+		this.idActivite = idActivite;
+!!!153730.java!!!	getIdGite() : int
+		return this.idGite;
+!!!153858.java!!!	setIdGite(in idGite : int) : void
+		this.idGite = idGite;
+!!!153986.java!!!	equals(inout other : Object) : boolean
+		if ((this == other))
+			return true;
+		if ((other == null))
+			return false;
+		if (!(other instanceof LinkGiteactiviteId))
+			return false;
+		LinkGiteactiviteId castOther = (LinkGiteactiviteId) other;
+
+		return (this.getIdActivite() == castOther.getIdActivite())
+				&& (this.getIdGite() == castOther.getIdGite());
+!!!154114.java!!!	hashCode() : int
+		int result = 17;
+
+		result = 37 * result + this.getIdActivite();
+		result = 37 * result + this.getIdGite();
+		return result;

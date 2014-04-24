@@ -1,0 +1,29 @@
+class TarifId
+!!!168066.java!!!	TarifId(in idType : int, in idTypeLocation : int)
+		this.idType = idType;
+		this.idTypeLocation = idTypeLocation;
+!!!168194.java!!!	getIdType() : int
+		return this.idType;
+!!!168322.java!!!	setIdType(in idType : int) : void
+		this.idType = idType;
+!!!168450.java!!!	getIdTypeLocation() : int
+		return this.idTypeLocation;
+!!!168578.java!!!	setIdTypeLocation(in idTypeLocation : int) : void
+		this.idTypeLocation = idTypeLocation;
+!!!168706.java!!!	equals(inout other : Object) : boolean
+		if ((this == other))
+			return true;
+		if ((other == null))
+			return false;
+		if (!(other instanceof TarifId))
+			return false;
+		TarifId castOther = (TarifId) other;
+
+		return (this.getIdType() == castOther.getIdType())
+				&& (this.getIdTypeLocation() == castOther.getIdTypeLocation());
+!!!168834.java!!!	hashCode() : int
+		int result = 17;
+
+		result = 37 * result + this.getIdType();
+		result = 37 * result + this.getIdTypeLocation();
+		return result;

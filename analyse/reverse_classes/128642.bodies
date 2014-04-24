@@ -1,0 +1,20 @@
+class Pays
+!!!155778.java!!!	Pays(in idPays : int, in nomPays : String)
+		this.idPays = idPays;
+		this.nomPays = nomPays;
+!!!155906.java!!!	Pays(in idPays : int, in nomPays : String, inout adresses : Set<Adresse>)
+		this.idPays = idPays;
+		this.nomPays = nomPays;
+		this.adresses = adresses;
+!!!156034.java!!!	getIdPays() : int
+		return this.idPays;
+!!!156162.java!!!	setIdPays(in idPays : int) : void
+		this.idPays = idPays;
+!!!156290.java!!!	getNomPays() : String
+		return this.nomPays;
+!!!156418.java!!!	setNomPays(in nomPays : String) : void
+		this.nomPays = nomPays;
+!!!156546.java!!!	getAdresses() : Adresse
+		return this.adresses;
+!!!156674.java!!!	setAdresses(inout adresses : Set<Adresse>) : void
+		this.adresses = adresses;

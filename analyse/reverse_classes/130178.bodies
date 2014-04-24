@@ -1,0 +1,53 @@
+class Personne
+!!!156930.java!!!	Personne(in nom : String, in prenom : String, in email : String, inout statut : boolean, in login : String, in password : String)
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.statut = statut;
+		this.login = login;
+		this.password = password;
+!!!157058.java!!!	Personne(in nom : String, in prenom : String, in email : String, inout statut : boolean, in login : String, in password : String, inout gerant : Gerant, inout moderateur : Moderateur)
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.statut = statut;
+		this.login = login;
+		this.password = password;
+		this.gerant = gerant;
+		this.moderateur = moderateur;
+!!!157186.java!!!	getIdPersonne() : Integer
+		return this.idPersonne;
+!!!157314.java!!!	setIdPersonne(inout idPersonne : Integer) : void
+		this.idPersonne = idPersonne;
+!!!157442.java!!!	getNom() : String
+		return this.nom;
+!!!157570.java!!!	setNom(in nom : String) : void
+		this.nom = nom;
+!!!157698.java!!!	getPrenom() : String
+		return this.prenom;
+!!!157826.java!!!	setPrenom(in prenom : String) : void
+		this.prenom = prenom;
+!!!157954.java!!!	getEmail() : String
+		return this.email;
+!!!158082.java!!!	setEmail(in email : String) : void
+		this.email = email;
+!!!158210.java!!!	isStatut() : boolean
+		return this.statut;
+!!!158338.java!!!	setStatut(inout statut : boolean) : void
+		this.statut = statut;
+!!!158466.java!!!	getLogin() : String
+		return this.login;
+!!!158594.java!!!	setLogin(in login : String) : void
+		this.login = login;
+!!!158722.java!!!	getPassword() : String
+		return this.password;
+!!!158850.java!!!	setPassword(in password : String) : void
+		this.password = password;
+!!!158978.java!!!	getGerant() : Gerant
+		return this.gerant;
+!!!159106.java!!!	setGerant(inout gerant : Gerant) : void
+		this.gerant = gerant;
+!!!159234.java!!!	getModerateur() : Moderateur
+		return this.moderateur;
+!!!159362.java!!!	setModerateur(inout moderateur : Moderateur) : void
+		this.moderateur = moderateur;

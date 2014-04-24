@@ -1,0 +1,29 @@
+class DetailreservationId
+!!!141954.java!!!	DetailreservationId(in idTypeLocation : int, in idReservation : int)
+		this.idTypeLocation = idTypeLocation;
+		this.idReservation = idReservation;
+!!!142082.java!!!	getIdTypeLocation() : int
+		return this.idTypeLocation;
+!!!142210.java!!!	setIdTypeLocation(in idTypeLocation : int) : void
+		this.idTypeLocation = idTypeLocation;
+!!!142338.java!!!	getIdReservation() : int
+		return this.idReservation;
+!!!142466.java!!!	setIdReservation(in idReservation : int) : void
+		this.idReservation = idReservation;
+!!!142594.java!!!	equals(inout other : Object) : boolean
+		if ((this == other))
+			return true;
+		if ((other == null))
+			return false;
+		if (!(other instanceof DetailreservationId))
+			return false;
+		DetailreservationId castOther = (DetailreservationId) other;
+
+		return (this.getIdTypeLocation() == castOther.getIdTypeLocation())
+				&& (this.getIdReservation() == castOther.getIdReservation());
+!!!142722.java!!!	hashCode() : int
+		int result = 17;
+
+		result = 37 * result + this.getIdTypeLocation();
+		result = 37 * result + this.getIdReservation();
+		return result;

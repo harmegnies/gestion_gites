@@ -1,0 +1,11 @@
+window_sizes 1536 803 198 1332 694 35
+diagrams
+  active  classdiagram_ref 134530 // dia complet
+    1487 918 100 2 0 0
+end
+show_stereotypes
+selected class_ref 128258 // Typeactivite
+open
+  classview_ref 128002 // recuperation
+end
+end

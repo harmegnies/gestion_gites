@@ -1,0 +1,112 @@
+class Typelocation
+!!!171394.java!!!	Typelocation(inout gite : Gite, in dicriminator : String, in code : String, in standing : String, in nbPlaces : int, in douche : byte, inout salleBain : boolean, inout wc : boolean, inout cuisine : boolean, inout garage : boolean, inout sauna : boolean, in commentaire : String, in nbPieces : int, in nbLits : int, inout animal : boolean)
+		this.gite = gite;
+		this.dicriminator = dicriminator;
+		this.code = code;
+		this.standing = standing;
+		this.nbPlaces = nbPlaces;
+		this.douche = douche;
+		this.salleBain = salleBain;
+		this.wc = wc;
+		this.cuisine = cuisine;
+		this.garage = garage;
+		this.sauna = sauna;
+		this.commentaire = commentaire;
+		this.nbPieces = nbPieces;
+		this.nbLits = nbLits;
+		this.animal = animal;
+!!!171522.java!!!	Typelocation(inout gite : Gite, in dicriminator : String, in code : String, in standing : String, in nbPlaces : int, in douche : byte, inout salleBain : boolean, inout wc : boolean, inout cuisine : boolean, inout garage : boolean, inout sauna : boolean, in commentaire : String, in nbPieces : int, in nbLits : int, inout animal : boolean, inout detailreservations : Set<Detailreservation>, inout photolocations : Set<Photolocation>, inout tarifs : Set<Tarif>)
+		this.gite = gite;
+		this.dicriminator = dicriminator;
+		this.code = code;
+		this.standing = standing;
+		this.nbPlaces = nbPlaces;
+		this.douche = douche;
+		this.salleBain = salleBain;
+		this.wc = wc;
+		this.cuisine = cuisine;
+		this.garage = garage;
+		this.sauna = sauna;
+		this.commentaire = commentaire;
+		this.nbPieces = nbPieces;
+		this.nbLits = nbLits;
+		this.animal = animal;
+		this.detailreservations = detailreservations;
+		this.photolocations = photolocations;
+		this.tarifs = tarifs;
+!!!171650.java!!!	getIdTypeLocation() : Integer
+		return this.idTypeLocation;
+!!!171778.java!!!	setIdTypeLocation(inout idTypeLocation : Integer) : void
+		this.idTypeLocation = idTypeLocation;
+!!!171906.java!!!	getGite() : Gite
+		return this.gite;
+!!!172034.java!!!	setGite(inout gite : Gite) : void
+		this.gite = gite;
+!!!172162.java!!!	getDicriminator() : String
+		return this.dicriminator;
+!!!172290.java!!!	setDicriminator(in dicriminator : String) : void
+		this.dicriminator = dicriminator;
+!!!172418.java!!!	getCode() : String
+		return this.code;
+!!!172546.java!!!	setCode(in code : String) : void
+		this.code = code;
+!!!172674.java!!!	getStanding() : String
+		return this.standing;
+!!!172802.java!!!	setStanding(in standing : String) : void
+		this.standing = standing;
+!!!172930.java!!!	getNbPlaces() : int
+		return this.nbPlaces;
+!!!173058.java!!!	setNbPlaces(in nbPlaces : int) : void
+		this.nbPlaces = nbPlaces;
+!!!173186.java!!!	getDouche() : byte
+		return this.douche;
+!!!173314.java!!!	setDouche(in douche : byte) : void
+		this.douche = douche;
+!!!173442.java!!!	isSalleBain() : boolean
+		return this.salleBain;
+!!!173570.java!!!	setSalleBain(inout salleBain : boolean) : void
+		this.salleBain = salleBain;
+!!!173698.java!!!	isWc() : boolean
+		return this.wc;
+!!!173826.java!!!	setWc(inout wc : boolean) : void
+		this.wc = wc;
+!!!173954.java!!!	isCuisine() : boolean
+		return this.cuisine;
+!!!174082.java!!!	setCuisine(inout cuisine : boolean) : void
+		this.cuisine = cuisine;
+!!!174210.java!!!	isGarage() : boolean
+		return this.garage;
+!!!174338.java!!!	setGarage(inout garage : boolean) : void
+		this.garage = garage;
+!!!174466.java!!!	isSauna() : boolean
+		return this.sauna;
+!!!174594.java!!!	setSauna(inout sauna : boolean) : void
+		this.sauna = sauna;
+!!!174722.java!!!	getCommentaire() : String
+		return this.commentaire;
+!!!174850.java!!!	setCommentaire(in commentaire : String) : void
+		this.commentaire = commentaire;
+!!!174978.java!!!	getNbPieces() : int
+		return this.nbPieces;
+!!!175106.java!!!	setNbPieces(in nbPieces : int) : void
+		this.nbPieces = nbPieces;
+!!!175234.java!!!	getNbLits() : int
+		return this.nbLits;
+!!!175362.java!!!	setNbLits(in nbLits : int) : void
+		this.nbLits = nbLits;
+!!!175490.java!!!	isAnimal() : boolean
+		return this.animal;
+!!!175618.java!!!	setAnimal(inout animal : boolean) : void
+		this.animal = animal;
+!!!175746.java!!!	getDetailreservations() : Detailreservation
+		return this.detailreservations;
+!!!175874.java!!!	setDetailreservations(inout detailreservations : Set<Detailreservation>) : void
+		this.detailreservations = detailreservations;
+!!!176002.java!!!	getPhotolocations() : Photolocation
+		return this.photolocations;
+!!!176130.java!!!	setPhotolocations(inout photolocations : Set<Photolocation>) : void
+		this.photolocations = photolocations;
+!!!176258.java!!!	getTarifs() : Tarif
+		return this.tarifs;
+!!!176386.java!!!	setTarifs(inout tarifs : Set<Tarif>) : void
+		this.tarifs = tarifs;

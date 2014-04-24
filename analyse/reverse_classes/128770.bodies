@@ -1,0 +1,75 @@
+class Client
+!!!134274.java!!!	Client(inout adresse : Adresse, in nom : String, in prenom : String, in email : String, in telephone : String, in profession : String, inout dateEncodage : Date, inout statut : boolean)
+		this.adresse = adresse;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.telephone = telephone;
+		this.profession = profession;
+		this.dateEncodage = dateEncodage;
+		this.statut = statut;
+!!!134402.java!!!	Client(inout adresse : Adresse, in nom : String, in prenom : String, in email : String, in telephone : String, in profession : String, inout dateEncodage : Date, inout statut : boolean, inout commentaires : Set<Commentaire>, inout factures : Set<Facture>, inout reservations : Set<Reservation>, inout authentification : Authentification)
+		this.adresse = adresse;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.telephone = telephone;
+		this.profession = profession;
+		this.dateEncodage = dateEncodage;
+		this.statut = statut;
+		this.commentaires = commentaires;
+		this.factures = factures;
+		this.reservations = reservations;
+		this.authentification = authentification;
+!!!134530.java!!!	getIdClient() : Integer
+		return this.idClient;
+!!!134658.java!!!	setIdClient(inout idClient : Integer) : void
+		this.idClient = idClient;
+!!!134786.java!!!	getAdresse() : Adresse
+		return this.adresse;
+!!!134914.java!!!	setAdresse(inout adresse : Adresse) : void
+		this.adresse = adresse;
+!!!135042.java!!!	getNom() : String
+		return this.nom;
+!!!135170.java!!!	setNom(in nom : String) : void
+		this.nom = nom;
+!!!135298.java!!!	getPrenom() : String
+		return this.prenom;
+!!!135426.java!!!	setPrenom(in prenom : String) : void
+		this.prenom = prenom;
+!!!135554.java!!!	getEmail() : String
+		return this.email;
+!!!135682.java!!!	setEmail(in email : String) : void
+		this.email = email;
+!!!135810.java!!!	getTelephone() : String
+		return this.telephone;
+!!!135938.java!!!	setTelephone(in telephone : String) : void
+		this.telephone = telephone;
+!!!136066.java!!!	getProfession() : String
+		return this.profession;
+!!!136194.java!!!	setProfession(in profession : String) : void
+		this.profession = profession;
+!!!136322.java!!!	getDateEncodage() : Date
+		return this.dateEncodage;
+!!!136450.java!!!	setDateEncodage(inout dateEncodage : Date) : void
+		this.dateEncodage = dateEncodage;
+!!!136578.java!!!	isStatut() : boolean
+		return this.statut;
+!!!136706.java!!!	setStatut(inout statut : boolean) : void
+		this.statut = statut;
+!!!136834.java!!!	getCommentaires() : Commentaire
+		return this.commentaires;
+!!!136962.java!!!	setCommentaires(inout commentaires : Set<Commentaire>) : void
+		this.commentaires = commentaires;
+!!!137090.java!!!	getFactures() : Facture
+		return this.factures;
+!!!137218.java!!!	setFactures(inout factures : Set<Facture>) : void
+		this.factures = factures;
+!!!137346.java!!!	getReservations() : Reservation
+		return this.reservations;
+!!!137474.java!!!	setReservations(inout reservations : Set<Reservation>) : void
+		this.reservations = reservations;
+!!!137602.java!!!	getAuthentification() : Authentification
+		return this.authentification;
+!!!137730.java!!!	setAuthentification(inout authentification : Authentification) : void
+		this.authentification = authentification;

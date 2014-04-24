@@ -1,0 +1,18 @@
+class Typegite
+!!!170242.java!!!	Typegite(in type : String)
+		this.type = type;
+!!!170370.java!!!	Typegite(in type : String, inout gites : Set<Gite>)
+		this.type = type;
+		this.gites = gites;
+!!!170498.java!!!	getIdType() : Integer
+		return this.idType;
+!!!170626.java!!!	setIdType(inout idType : Integer) : void
+		this.idType = idType;
+!!!170754.java!!!	getType() : String
+		return this.type;
+!!!170882.java!!!	setType(in type : String) : void
+		this.type = type;
+!!!171010.java!!!	getGites() : Gite
+		return this.gites;
+!!!171138.java!!!	setGites(inout gites : Set<Gite>) : void
+		this.gites = gites;

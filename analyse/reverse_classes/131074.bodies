@@ -1,0 +1,22 @@
+class Tarif
+!!!166786.java!!!	Tarif(inout id : TarifId, inout typetarif : Typetarif, inout typelocation : Typelocation, in prixLocation : double)
+		this.id = id;
+		this.typetarif = typetarif;
+		this.typelocation = typelocation;
+		this.prixLocation = prixLocation;
+!!!166914.java!!!	getId() : TarifId
+		return this.id;
+!!!167042.java!!!	setId(inout id : TarifId) : void
+		this.id = id;
+!!!167170.java!!!	getTypetarif() : Typetarif
+		return this.typetarif;
+!!!167298.java!!!	setTypetarif(inout typetarif : Typetarif) : void
+		this.typetarif = typetarif;
+!!!167426.java!!!	getTypelocation() : Typelocation
+		return this.typelocation;
+!!!167554.java!!!	setTypelocation(inout typelocation : Typelocation) : void
+		this.typelocation = typelocation;
+!!!167682.java!!!	getPrixLocation() : double
+		return this.prixLocation;
+!!!167810.java!!!	setPrixLocation(in prixLocation : double) : void
+		this.prixLocation = prixLocation;

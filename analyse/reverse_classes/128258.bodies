@@ -1,0 +1,18 @@
+class Typeactivite
+!!!169090.java!!!	Typeactivite(in nomType : String)
+		this.nomType = nomType;
+!!!169218.java!!!	Typeactivite(in nomType : String, inout activites : Set<Activite>)
+		this.nomType = nomType;
+		this.activites = activites;
+!!!169346.java!!!	getIdType() : Integer
+		return this.idType;
+!!!169474.java!!!	setIdType(inout idType : Integer) : void
+		this.idType = idType;
+!!!169602.java!!!	getNomType() : String
+		return this.nomType;
+!!!169730.java!!!	setNomType(in nomType : String) : void
+		this.nomType = nomType;
+!!!169858.java!!!	getActivites() : Activite
+		return this.activites;
+!!!169986.java!!!	setActivites(inout activites : Set<Activite>) : void
+		this.activites = activites;

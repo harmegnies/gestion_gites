@@ -1,0 +1,79 @@
+class Gite
+!!!146690.java!!!	Gite(inout typegite : Typegite, inout gerant : Gerant, in nomGite : String, in localisation : String, in telephone : String, in fax : String, in cotation : int)
+		this.typegite = typegite;
+		this.gerant = gerant;
+		this.nomGite = nomGite;
+		this.localisation = localisation;
+		this.telephone = telephone;
+		this.fax = fax;
+		this.cotation = cotation;
+!!!146818.java!!!	Gite(inout typegite : Typegite, inout gerant : Gerant, in nomGite : String, in localisation : String, in telephone : String, in fax : String, in cotation : int, inout installations : Set<Installation>, inout typelocations : Set<Typelocation>, inout commentaires : Set<Commentaire>, inout photos : Set<Photo>, inout specialites : Set<Specialite>, inout linkGiteactivites : Set<LinkGiteactivite>)
+		this.typegite = typegite;
+		this.gerant = gerant;
+		this.nomGite = nomGite;
+		this.localisation = localisation;
+		this.telephone = telephone;
+		this.fax = fax;
+		this.cotation = cotation;
+		this.installations = installations;
+		this.typelocations = typelocations;
+		this.commentaires = commentaires;
+		this.photos = photos;
+		this.specialites = specialites;
+		this.linkGiteactivites = linkGiteactivites;
+!!!146946.java!!!	getIdGite() : Integer
+		return this.idGite;
+!!!147074.java!!!	setIdGite(inout idGite : Integer) : void
+		this.idGite = idGite;
+!!!147202.java!!!	getTypegite() : Typegite
+		return this.typegite;
+!!!147330.java!!!	setTypegite(inout typegite : Typegite) : void
+		this.typegite = typegite;
+!!!147458.java!!!	getGerant() : Gerant
+		return this.gerant;
+!!!147586.java!!!	setGerant(inout gerant : Gerant) : void
+		this.gerant = gerant;
+!!!147714.java!!!	getNomGite() : String
+		return this.nomGite;
+!!!147842.java!!!	setNomGite(in nomGite : String) : void
+		this.nomGite = nomGite;
+!!!147970.java!!!	getLocalisation() : String
+		return this.localisation;
+!!!148098.java!!!	setLocalisation(in localisation : String) : void
+		this.localisation = localisation;
+!!!148226.java!!!	getTelephone() : String
+		return this.telephone;
+!!!148354.java!!!	setTelephone(in telephone : String) : void
+		this.telephone = telephone;
+!!!148482.java!!!	getFax() : String
+		return this.fax;
+!!!148610.java!!!	setFax(in fax : String) : void
+		this.fax = fax;
+!!!148738.java!!!	getCotation() : int
+		return this.cotation;
+!!!148866.java!!!	setCotation(in cotation : int) : void
+		this.cotation = cotation;
+!!!148994.java!!!	getInstallations() : Installation
+		return this.installations;
+!!!149122.java!!!	setInstallations(inout installations : Set<Installation>) : void
+		this.installations = installations;
+!!!149250.java!!!	getTypelocations() : Typelocation
+		return this.typelocations;
+!!!149378.java!!!	setTypelocations(inout typelocations : Set<Typelocation>) : void
+		this.typelocations = typelocations;
+!!!149506.java!!!	getCommentaires() : Commentaire
+		return this.commentaires;
+!!!149634.java!!!	setCommentaires(inout commentaires : Set<Commentaire>) : void
+		this.commentaires = commentaires;
+!!!149762.java!!!	getPhotos() : Photo
+		return this.photos;
+!!!149890.java!!!	setPhotos(inout photos : Set<Photo>) : void
+		this.photos = photos;
+!!!150018.java!!!	getSpecialites() : Specialite
+		return this.specialites;
+!!!150146.java!!!	setSpecialites(inout specialites : Set<Specialite>) : void
+		this.specialites = specialites;
+!!!150274.java!!!	getLinkGiteactivites() : LinkGiteactivite
+		return this.linkGiteactivites;
+!!!150402.java!!!	setLinkGiteactivites(inout linkGiteactivites : Set<LinkGiteactivite>) : void
+		this.linkGiteactivites = linkGiteactivites;

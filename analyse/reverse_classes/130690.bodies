@@ -1,0 +1,24 @@
+class Specialite
+!!!165378.java!!!	Specialite(in nomSpecialite : String, in commentaire : String)
+		this.nomSpecialite = nomSpecialite;
+		this.commentaire = commentaire;
+!!!165506.java!!!	Specialite(in nomSpecialite : String, in commentaire : String, inout gites : Set<Gite>)
+		this.nomSpecialite = nomSpecialite;
+		this.commentaire = commentaire;
+		this.gites = gites;
+!!!165634.java!!!	getIdSpecialite() : Integer
+		return this.idSpecialite;
+!!!165762.java!!!	setIdSpecialite(inout idSpecialite : Integer) : void
+		this.idSpecialite = idSpecialite;
+!!!165890.java!!!	getNomSpecialite() : String
+		return this.nomSpecialite;
+!!!166018.java!!!	setNomSpecialite(in nomSpecialite : String) : void
+		this.nomSpecialite = nomSpecialite;
+!!!166146.java!!!	getCommentaire() : String
+		return this.commentaire;
+!!!166274.java!!!	setCommentaire(in commentaire : String) : void
+		this.commentaire = commentaire;
+!!!166402.java!!!	getGites() : Gite
+		return this.gites;
+!!!166530.java!!!	setGites(inout gites : Set<Gite>) : void
+		this.gites = gites;

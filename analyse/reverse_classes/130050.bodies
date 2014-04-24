@@ -1,0 +1,24 @@
+class Gerant
+!!!145282.java!!!	Gerant(inout personne : Personne, inout dateAffiliation : Date)
+		this.personne = personne;
+		this.dateAffiliation = dateAffiliation;
+!!!145410.java!!!	Gerant(inout personne : Personne, inout dateAffiliation : Date, inout gites : Set<Gite>)
+		this.personne = personne;
+		this.dateAffiliation = dateAffiliation;
+		this.gites = gites;
+!!!145538.java!!!	getIdGerant() : int
+		return this.idGerant;
+!!!145666.java!!!	setIdGerant(in idGerant : int) : void
+		this.idGerant = idGerant;
+!!!145794.java!!!	getPersonne() : Personne
+		return this.personne;
+!!!145922.java!!!	setPersonne(inout personne : Personne) : void
+		this.personne = personne;
+!!!146050.java!!!	getDateAffiliation() : Date
+		return this.dateAffiliation;
+!!!146178.java!!!	setDateAffiliation(inout dateAffiliation : Date) : void
+		this.dateAffiliation = dateAffiliation;
+!!!146306.java!!!	getGites() : Gite
+		return this.gites;
+!!!146434.java!!!	setGites(inout gites : Set<Gite>) : void
+		this.gites = gites;

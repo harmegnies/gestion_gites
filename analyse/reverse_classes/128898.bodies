@@ -1,0 +1,21 @@
+class Authentification
+!!!132994.java!!!	Authentification(inout client : Client, in login : String, in password : String)
+		this.client = client;
+		this.login = login;
+		this.password = password;
+!!!133122.java!!!	getIdClient() : int
+		return this.idClient;
+!!!133250.java!!!	setIdClient(in idClient : int) : void
+		this.idClient = idClient;
+!!!133378.java!!!	getClient() : Client
+		return this.client;
+!!!133506.java!!!	setClient(inout client : Client) : void
+		this.client = client;
+!!!133634.java!!!	getLogin() : String
+		return this.login;
+!!!133762.java!!!	setLogin(in login : String) : void
+		this.login = login;
+!!!133890.java!!!	getPassword() : String
+		return this.password;
+!!!134018.java!!!	setPassword(in password : String) : void
+		this.password = password;

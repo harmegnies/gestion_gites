@@ -1,0 +1,22 @@
+class LinkGiteactivite
+!!!152066.java!!!	LinkGiteactivite(inout id : LinkGiteactiviteId, inout gite : Gite, inout activite : Activite, in distance : int)
+		this.id = id;
+		this.gite = gite;
+		this.activite = activite;
+		this.distance = distance;
+!!!152194.java!!!	getId() : LinkGiteactiviteId
+		return this.id;
+!!!152322.java!!!	setId(inout id : LinkGiteactiviteId) : void
+		this.id = id;
+!!!152450.java!!!	getGite() : Gite
+		return this.gite;
+!!!152578.java!!!	setGite(inout gite : Gite) : void
+		this.gite = gite;
+!!!152706.java!!!	getActivite() : Activite
+		return this.activite;
+!!!152834.java!!!	setActivite(inout activite : Activite) : void
+		this.activite = activite;
+!!!152962.java!!!	getDistance() : int
+		return this.distance;
+!!!153090.java!!!	setDistance(in distance : int) : void
+		this.distance = distance;

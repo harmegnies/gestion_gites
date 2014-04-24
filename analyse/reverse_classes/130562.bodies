@@ -1,0 +1,31 @@
+class Photo
+!!!159618.java!!!	Photo(inout gite : Gite, in nomPhoto : String, in pathPhotp : String, in format : String, in taille : int)
+		this.gite = gite;
+		this.nomPhoto = nomPhoto;
+		this.pathPhotp = pathPhotp;
+		this.format = format;
+		this.taille = taille;
+!!!159746.java!!!	getIdPhoto() : Integer
+		return this.idPhoto;
+!!!159874.java!!!	setIdPhoto(inout idPhoto : Integer) : void
+		this.idPhoto = idPhoto;
+!!!160002.java!!!	getGite() : Gite
+		return this.gite;
+!!!160130.java!!!	setGite(inout gite : Gite) : void
+		this.gite = gite;
+!!!160258.java!!!	getNomPhoto() : String
+		return this.nomPhoto;
+!!!160386.java!!!	setNomPhoto(in nomPhoto : String) : void
+		this.nomPhoto = nomPhoto;
+!!!160514.java!!!	getPathPhotp() : String
+		return this.pathPhotp;
+!!!160642.java!!!	setPathPhotp(in pathPhotp : String) : void
+		this.pathPhotp = pathPhotp;
+!!!160770.java!!!	getFormat() : String
+		return this.format;
+!!!160898.java!!!	setFormat(in format : String) : void
+		this.format = format;
+!!!161026.java!!!	getTaille() : int
+		return this.taille;
+!!!161154.java!!!	setTaille(in taille : int) : void
+		this.taille = taille;

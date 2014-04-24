@@ -1,0 +1,47 @@
+class Reservation
+!!!162946.java!!!	Reservation(inout client : Client, inout dateReservation : Date, inout datedebutLocation : Date, inout statut : boolean, inout caution : boolean)
+		this.client = client;
+		this.dateReservation = dateReservation;
+		this.datedebutLocation = datedebutLocation;
+		this.statut = statut;
+		this.caution = caution;
+!!!163074.java!!!	Reservation(inout client : Client, inout dateReservation : Date, inout datedebutLocation : Date, inout statut : boolean, inout caution : boolean, inout detailreservations : Set<Detailreservation>, inout factures : Set<Facture>)
+		this.client = client;
+		this.dateReservation = dateReservation;
+		this.datedebutLocation = datedebutLocation;
+		this.statut = statut;
+		this.caution = caution;
+		this.detailreservations = detailreservations;
+		this.factures = factures;
+!!!163202.java!!!	getIdReservation() : Integer
+		return this.idReservation;
+!!!163330.java!!!	setIdReservation(inout idReservation : Integer) : void
+		this.idReservation = idReservation;
+!!!163458.java!!!	getClient() : Client
+		return this.client;
+!!!163586.java!!!	setClient(inout client : Client) : void
+		this.client = client;
+!!!163714.java!!!	getDateReservation() : Date
+		return this.dateReservation;
+!!!163842.java!!!	setDateReservation(inout dateReservation : Date) : void
+		this.dateReservation = dateReservation;
+!!!163970.java!!!	getDatedebutLocation() : Date
+		return this.datedebutLocation;
+!!!164098.java!!!	setDatedebutLocation(inout datedebutLocation : Date) : void
+		this.datedebutLocation = datedebutLocation;
+!!!164226.java!!!	isStatut() : boolean
+		return this.statut;
+!!!164354.java!!!	setStatut(inout statut : boolean) : void
+		this.statut = statut;
+!!!164482.java!!!	isCaution() : boolean
+		return this.caution;
+!!!164610.java!!!	setCaution(inout caution : boolean) : void
+		this.caution = caution;
+!!!164738.java!!!	getDetailreservations() : Detailreservation
+		return this.detailreservations;
+!!!164866.java!!!	setDetailreservations(inout detailreservations : Set<Detailreservation>) : void
+		this.detailreservations = detailreservations;
+!!!164994.java!!!	getFactures() : Facture
+		return this.factures;
+!!!165122.java!!!	setFactures(inout factures : Set<Facture>) : void
+		this.factures = factures;

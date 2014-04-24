@@ -1,0 +1,26 @@
+class Photolocation
+!!!161410.java!!!	Photolocation(inout typelocation : Typelocation, in nomPhoto : String, in format : String, in taille : int)
+		this.typelocation = typelocation;
+		this.nomPhoto = nomPhoto;
+		this.format = format;
+		this.taille = taille;
+!!!161538.java!!!	getIdPhoto() : Integer
+		return this.idPhoto;
+!!!161666.java!!!	setIdPhoto(inout idPhoto : Integer) : void
+		this.idPhoto = idPhoto;
+!!!161794.java!!!	getTypelocation() : Typelocation
+		return this.typelocation;
+!!!161922.java!!!	setTypelocation(inout typelocation : Typelocation) : void
+		this.typelocation = typelocation;
+!!!162050.java!!!	getNomPhoto() : String
+		return this.nomPhoto;
+!!!162178.java!!!	setNomPhoto(in nomPhoto : String) : void
+		this.nomPhoto = nomPhoto;
+!!!162306.java!!!	getFormat() : String
+		return this.format;
+!!!162434.java!!!	setFormat(in format : String) : void
+		this.format = format;
+!!!162562.java!!!	getTaille() : int
+		return this.taille;
+!!!162690.java!!!	setTaille(in taille : int) : void
+		this.taille = taille;

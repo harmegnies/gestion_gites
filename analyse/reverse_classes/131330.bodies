@@ -1,0 +1,18 @@
+class Typetarif
+!!!176642.java!!!	Typetarif(in type : String)
+		this.type = type;
+!!!176770.java!!!	Typetarif(in type : String, inout tarifs : Set<Tarif>)
+		this.type = type;
+		this.tarifs = tarifs;
+!!!176898.java!!!	getIdType() : Integer
+		return this.idType;
+!!!177026.java!!!	setIdType(inout idType : Integer) : void
+		this.idType = idType;
+!!!177154.java!!!	getType() : String
+		return this.type;
+!!!177282.java!!!	setType(in type : String) : void
+		this.type = type;
+!!!177410.java!!!	getTarifs() : Tarif
+		return this.tarifs;
+!!!177538.java!!!	setTarifs(inout tarifs : Set<Tarif>) : void
+		this.tarifs = tarifs;

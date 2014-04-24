@@ -1,0 +1,48 @@
+class Commentaire
+!!!137986.java!!!	Commentaire(inout client : Client, inout gite : Gite, in commentaire : String, in appreciation : int, inout dateCommentaire : Date, inout statut : boolean)
+		this.client = client;
+		this.gite = gite;
+		this.commentaire = commentaire;
+		this.appreciation = appreciation;
+		this.dateCommentaire = dateCommentaire;
+		this.statut = statut;
+!!!138114.java!!!	Commentaire(inout client : Client, inout gite : Gite, inout moderateur : Moderateur, in commentaire : String, in appreciation : int, inout dateCommentaire : Date, inout statut : boolean)
+		this.client = client;
+		this.gite = gite;
+		this.moderateur = moderateur;
+		this.commentaire = commentaire;
+		this.appreciation = appreciation;
+		this.dateCommentaire = dateCommentaire;
+		this.statut = statut;
+!!!138242.java!!!	getIdCommentaire() : Integer
+		return this.idCommentaire;
+!!!138370.java!!!	setIdCommentaire(inout idCommentaire : Integer) : void
+		this.idCommentaire = idCommentaire;
+!!!138498.java!!!	getClient() : Client
+		return this.client;
+!!!138626.java!!!	setClient(inout client : Client) : void
+		this.client = client;
+!!!138754.java!!!	getGite() : Gite
+		return this.gite;
+!!!138882.java!!!	setGite(inout gite : Gite) : void
+		this.gite = gite;
+!!!139010.java!!!	getModerateur() : Moderateur
+		return this.moderateur;
+!!!139138.java!!!	setModerateur(inout moderateur : Moderateur) : void
+		this.moderateur = moderateur;
+!!!139266.java!!!	getCommentaire() : String
+		return this.commentaire;
+!!!139394.java!!!	setCommentaire(in commentaire : String) : void
+		this.commentaire = commentaire;
+!!!139522.java!!!	getAppreciation() : int
+		return this.appreciation;
+!!!139650.java!!!	setAppreciation(in appreciation : int) : void
+		this.appreciation = appreciation;
+!!!139778.java!!!	getDateCommentaire() : Date
+		return this.dateCommentaire;
+!!!139906.java!!!	setDateCommentaire(inout dateCommentaire : Date) : void
+		this.dateCommentaire = dateCommentaire;
+!!!140034.java!!!	isStatut() : boolean
+		return this.statut;
+!!!140162.java!!!	setStatut(inout statut : boolean) : void
+		this.statut = statut;

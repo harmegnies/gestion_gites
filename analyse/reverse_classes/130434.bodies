@@ -1,0 +1,24 @@
+class Installation
+!!!150658.java!!!	Installation(in typeInstallation : String, inout pictogramme : byte)
+		this.typeInstallation = typeInstallation;
+		this.pictogramme = pictogramme;
+!!!150786.java!!!	Installation(in typeInstallation : String, inout pictogramme : byte, inout gites : Set<Gite>)
+		this.typeInstallation = typeInstallation;
+		this.pictogramme = pictogramme;
+		this.gites = gites;
+!!!150914.java!!!	getIdInstallation() : Integer
+		return this.idInstallation;
+!!!151042.java!!!	setIdInstallation(inout idInstallation : Integer) : void
+		this.idInstallation = idInstallation;
+!!!151170.java!!!	getTypeInstallation() : String
+		return this.typeInstallation;
+!!!151298.java!!!	setTypeInstallation(in typeInstallation : String) : void
+		this.typeInstallation = typeInstallation;
+!!!151426.java!!!	getPictogramme() : byte
+		return this.pictogramme;
+!!!151554.java!!!	setPictogramme(inout pictogramme : byte) : void
+		this.pictogramme = pictogramme;
+!!!151682.java!!!	getGites() : Gite
+		return this.gites;
+!!!151810.java!!!	setGites(inout gites : Set<Gite>) : void
+		this.gites = gites;

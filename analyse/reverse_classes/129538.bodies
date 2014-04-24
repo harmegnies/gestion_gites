@@ -1,0 +1,24 @@
+class Moderateur
+!!!154370.java!!!	Moderateur(inout personne : Personne, in contrat : String)
+		this.personne = personne;
+		this.contrat = contrat;
+!!!154498.java!!!	Moderateur(inout personne : Personne, in contrat : String, inout commentaires : Set<Commentaire>)
+		this.personne = personne;
+		this.contrat = contrat;
+		this.commentaires = commentaires;
+!!!154626.java!!!	getIdModerateur() : int
+		return this.idModerateur;
+!!!154754.java!!!	setIdModerateur(in idModerateur : int) : void
+		this.idModerateur = idModerateur;
+!!!154882.java!!!	getPersonne() : Personne
+		return this.personne;
+!!!155010.java!!!	setPersonne(inout personne : Personne) : void
+		this.personne = personne;
+!!!155138.java!!!	getContrat() : String
+		return this.contrat;
+!!!155266.java!!!	setContrat(in contrat : String) : void
+		this.contrat = contrat;
+!!!155394.java!!!	getCommentaires() : Commentaire
+		return this.commentaires;
+!!!155522.java!!!	setCommentaires(inout commentaires : Set<Commentaire>) : void
+		this.commentaires = commentaires;

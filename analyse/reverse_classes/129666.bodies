@@ -1,0 +1,27 @@
+class Detailreservation
+!!!140418.java!!!	Detailreservation(inout id : DetailreservationId, inout reservation : Reservation, inout typelocation : Typelocation, in nbjours : int, in prix : double)
+		this.id = id;
+		this.reservation = reservation;
+		this.typelocation = typelocation;
+		this.nbjours = nbjours;
+		this.prix = prix;
+!!!140546.java!!!	getId() : DetailreservationId
+		return this.id;
+!!!140674.java!!!	setId(inout id : DetailreservationId) : void
+		this.id = id;
+!!!140802.java!!!	getReservation() : Reservation
+		return this.reservation;
+!!!140930.java!!!	setReservation(inout reservation : Reservation) : void
+		this.reservation = reservation;
+!!!141058.java!!!	getTypelocation() : Typelocation
+		return this.typelocation;
+!!!141186.java!!!	setTypelocation(inout typelocation : Typelocation) : void
+		this.typelocation = typelocation;
+!!!141314.java!!!	getNbjours() : int
+		return this.nbjours;
+!!!141442.java!!!	setNbjours(in nbjours : int) : void
+		this.nbjours = nbjours;
+!!!141570.java!!!	getPrix() : double
+		return this.prix;
+!!!141698.java!!!	setPrix(in prix : double) : void
+		this.prix = prix;

@@ -1,0 +1,41 @@
+class Facture
+!!!142978.java!!!	Facture(inout client : Client, inout reservation : Reservation, inout dateFacture : Date, in nrFacture : String, inout payer : boolean, in modePaiement : String, in montantTotal : double)
+		this.client = client;
+		this.reservation = reservation;
+		this.dateFacture = dateFacture;
+		this.nrFacture = nrFacture;
+		this.payer = payer;
+		this.modePaiement = modePaiement;
+		this.montantTotal = montantTotal;
+!!!143106.java!!!	getIdFacture() : Integer
+		return this.idFacture;
+!!!143234.java!!!	setIdFacture(inout idFacture : Integer) : void
+		this.idFacture = idFacture;
+!!!143362.java!!!	getClient() : Client
+		return this.client;
+!!!143490.java!!!	setClient(inout client : Client) : void
+		this.client = client;
+!!!143618.java!!!	getReservation() : Reservation
+		return this.reservation;
+!!!143746.java!!!	setReservation(inout reservation : Reservation) : void
+		this.reservation = reservation;
+!!!143874.java!!!	getDateFacture() : Date
+		return this.dateFacture;
+!!!144002.java!!!	setDateFacture(inout dateFacture : Date) : void
+		this.dateFacture = dateFacture;
+!!!144130.java!!!	getNrFacture() : String
+		return this.nrFacture;
+!!!144258.java!!!	setNrFacture(in nrFacture : String) : void
+		this.nrFacture = nrFacture;
+!!!144386.java!!!	isPayer() : boolean
+		return this.payer;
+!!!144514.java!!!	setPayer(inout payer : boolean) : void
+		this.payer = payer;
+!!!144642.java!!!	getModePaiement() : String
+		return this.modePaiement;
+!!!144770.java!!!	setModePaiement(in modePaiement : String) : void
+		this.modePaiement = modePaiement;
+!!!144898.java!!!	getMontantTotal() : double
+		return this.montantTotal;
+!!!145026.java!!!	setMontantTotal(in montantTotal : double) : void
+		this.montantTotal = montantTotal;

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="gestion_gite" match-name="activite"/>
+  <table-filter match-catalog="gestion_gite" match-name="adresse"/>
+  <table-filter match-catalog="gestion_gite" match-name="authentification"/>
+  <table-filter match-catalog="gestion_gite" match-name="client"/>
+  <table-filter match-catalog="gestion_gite" match-name="commentaire"/>
+  <table-filter match-catalog="gestion_gite" match-name="detailreservation"/>
+  <table-filter match-catalog="gestion_gite" match-name="facture"/>
+  <table-filter match-catalog="gestion_gite" match-name="gerant"/>
+  <table-filter match-catalog="gestion_gite" match-name="gite"/>
+  <table-filter match-catalog="gestion_gite" match-name="installation"/>
+  <table-filter match-catalog="gestion_gite" match-name="link_giteactivite"/>
+  <table-filter match-catalog="gestion_gite" match-name="link_giteinstallation"/>
+  <table-filter match-catalog="gestion_gite" match-name="link_gitespecialite"/>
+  <table-filter match-catalog="gestion_gite" match-name="moderateur"/>
+  <table-filter match-catalog="gestion_gite" match-name="pays"/>
+  <table-filter match-catalog="gestion_gite" match-name="personne"/>
+  <table-filter match-catalog="gestion_gite" match-name="photo"/>
+  <table-filter match-catalog="gestion_gite" match-name="photolocation"/>
+  <table-filter match-catalog="gestion_gite" match-name="reservation"/>
+  <table-filter match-catalog="gestion_gite" match-name="specialite"/>
+  <table-filter match-catalog="gestion_gite" match-name="tarif"/>
+  <table-filter match-catalog="gestion_gite" match-name="typeactivite"/>
+  <table-filter match-catalog="gestion_gite" match-name="typegite"/>
+  <table-filter match-catalog="gestion_gite" match-name="typelocation"/>
+  <table-filter match-catalog="gestion_gite" match-name="typetarif"/>
+</hibernate-reverse-engineering>

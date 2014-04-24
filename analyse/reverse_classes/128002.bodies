@@ -1,0 +1,54 @@
+class Activite
+!!!128130.java!!!	Activite(inout typeactivite : Typeactivite, in nomActivite : String, in description : String, inout dateOuverture : Date, in periode : String, in lieu : String, in siteWeb : String)
+		this.typeactivite = typeactivite;
+		this.nomActivite = nomActivite;
+		this.description = description;
+		this.dateOuverture = dateOuverture;
+		this.periode = periode;
+		this.lieu = lieu;
+		this.siteWeb = siteWeb;
+!!!128258.java!!!	Activite(inout typeactivite : Typeactivite, in nomActivite : String, in description : String, inout dateOuverture : Date, in periode : String, in lieu : String, in siteWeb : String, inout linkGiteactivites : Set<LinkGiteactivite>)
+		this.typeactivite = typeactivite;
+		this.nomActivite = nomActivite;
+		this.description = description;
+		this.dateOuverture = dateOuverture;
+		this.periode = periode;
+		this.lieu = lieu;
+		this.siteWeb = siteWeb;
+		this.linkGiteactivites = linkGiteactivites;
+!!!128386.java!!!	getIdActivite() : Integer
+		return this.idActivite;
+!!!128514.java!!!	setIdActivite(inout idActivite : Integer) : void
+		this.idActivite = idActivite;
+!!!128642.java!!!	getTypeactivite() : Typeactivite
+		return this.typeactivite;
+!!!128770.java!!!	setTypeactivite(inout typeactivite : Typeactivite) : void
+		this.typeactivite = typeactivite;
+!!!128898.java!!!	getNomActivite() : String
+		return this.nomActivite;
+!!!129026.java!!!	setNomActivite(in nomActivite : String) : void
+		this.nomActivite = nomActivite;
+!!!129154.java!!!	getDescription() : String
+		return this.description;
+!!!129282.java!!!	setDescription(in description : String) : void
+		this.description = description;
+!!!129410.java!!!	getDateOuverture() : Date
+		return this.dateOuverture;
+!!!129538.java!!!	setDateOuverture(inout dateOuverture : Date) : void
+		this.dateOuverture = dateOuverture;
+!!!129666.java!!!	getPeriode() : String
+		return this.periode;
+!!!129794.java!!!	setPeriode(in periode : String) : void
+		this.periode = periode;
+!!!129922.java!!!	getLieu() : String
+		return this.lieu;
+!!!130050.java!!!	setLieu(in lieu : String) : void
+		this.lieu = lieu;
+!!!130178.java!!!	getSiteWeb() : String
+		return this.siteWeb;
+!!!130306.java!!!	setSiteWeb(in siteWeb : String) : void
+		this.siteWeb = siteWeb;
+!!!130434.java!!!	getLinkGiteactivites() : LinkGiteactivite
+		return this.linkGiteactivites;
+!!!130562.java!!!	setLinkGiteactivites(inout linkGiteactivites : Set<LinkGiteactivite>) : void
+		this.linkGiteactivites = linkGiteactivites;
